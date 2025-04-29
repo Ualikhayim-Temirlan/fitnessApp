@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/homescreen.dart';
+import 'package:flutter_application_1/screens/auth.dart';
 
 void main() => runApp(HomePage());
 
@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
         primaryColor: Colors.blueGrey,
         textTheme: TextTheme(titleMedium: TextStyle(color: Colors.black))
       ),
-      home: HomeScreen(),
+      home: AuthPages(),
     );
   }
 }
